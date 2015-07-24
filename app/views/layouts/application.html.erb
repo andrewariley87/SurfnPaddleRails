@@ -1,14 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SurfnPaddleRails</title>
+  <title>Week 3 Lab</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header class = "site_header">
+    <div class = "pacers"> Go Pacers Blog </div>
+    <div class = "search"> ABOUT &nbsp&nbsp SEARCH </div>
+    <div class = "iron"> An Iron Yard Academy Project Est. Summer 2015 </div>
+  </header>
 
 <%= yield %>
+
+<div class = "bottom_main">
+
+  <hr width = "60%">
+
+  <div class = "bottom_header">
+    <p> Favorite Players </p>
+  </div>
+
+  <div class = "bottom">
+
+    <div class = "sub_bottom">
+
+      <div class = "picture_1">
+        <h4>
+          <p> George </p>
+        </h4>
+      </div>
+
+      <div class = "picture_2">
+        <h4>
+          <p> Hill </p>
+        </h4>
+      </div>
+
+      <div class = "picture_3">
+        <h4>
+          <p> Ellis </p>
+        </h4>
+      </div>
+
+      <div class = "picture_4">
+        <h4>
+          <p> Stuckey </p>
+        </h4>
+      </div>
+
+      <div class = "picture_bottom">
+
+        <div class = "nav_blog">
+          <p> Pacers Blog </p>
+        </div>
+
+        <div class = "players">
+          <p> George | Hill | Ellis | Stuckey </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
 </body>
 </html>

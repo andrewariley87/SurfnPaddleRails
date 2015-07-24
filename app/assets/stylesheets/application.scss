@@ -1,0 +1,288 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ body {
+
+   margin: 0;
+   font-family: 'Oswald';
+
+ }
+
+ .site_header{
+
+   top: 0;
+   bottom: 0;
+   width: 100%;
+   height: 535px;
+   background-color: #00000;
+   color: #FFF;
+   background-image: url("Images/pacers.jpg");
+   background-size: 100%;
+   background-repeat: no-repeat;
+   background-position: top;
+   display: inline-block;
+
+ }
+
+ .pacers{
+
+ width: 20%;
+ margin-top: 30px;
+ margin-left: 5%;
+ font-size: 20px;
+ color: #FFD700;
+ float: left;
+
+ }
+
+ .search{
+
+ width: 20%;
+ margin-top: 30px;
+ font-size: 20px;
+ color: #FFD700;
+ float: right;
+
+ }
+
+ .iron{
+
+ text-align: center;
+ margin-top: 175px;
+ color: #FFD700;
+
+ }
+
+ .middle_text{
+
+ height: 100%;
+ margin-top: 50px;
+ width: 100%;
+ position: relative;
+ display: inline-block;
+
+ }
+
+ .post_heading{
+
+ margin-top: -5%;
+ font-size: 50px;
+ display: inline-block;
+
+ }
+
+ .post{
+
+ display: inline-block;
+ width: 50%;
+ text-align: center;
+ line-height: 28px;
+
+ }
+
+ .post_heading_2{
+
+ font-size: 50px;
+
+ }
+
+ .post_2{
+
+ line-height: 28px;
+
+ }
+
+ .author{
+
+ position: absolute;
+ display: inline-block;
+ margin-left: 300px;
+ text-align: center;
+ margin-top: -30px;
+ height: 100%;
+
+ }
+
+ .poster{
+
+ font-size: 14px;
+ color: blue;
+ margin-right: 180px;
+
+ }
+
+ .poster_pic{
+
+ background-image: url("Images/img.jpeg");
+ height: 200px;
+ width: 200px;
+ border-radius: 50%;
+ margin-right: 150px;
+
+ }
+
+ .social_media{
+
+ margin-right: 170px;
+ word-spacing: 5px;
+
+ }
+
+ .advert{
+
+ background-image: url("Images/pacers_logo.gif");
+ height: auto;
+ width: auto;
+ margin-left: -200px;
+ margin-top: 100px;
+ height: 475px;
+ width: 490px;
+
+ }
+
+ .ad_write-up{
+
+   line-height: 28px;
+   height: 30%;
+   margin-left: -200px;
+   margin-top: 40px;
+   text-align: center;
+   padding-right: 50px;
+
+ }
+
+ .bottom_main{
+
+ width: 100%;
+ background-color: #FFD700;
+ margin-top: 80px;
+ background-size: 100%
+
+ }
+
+ .bottom_header{
+
+ font-size: 40px;
+ text-align: center;
+ color: blue;
+
+ }
+
+ .bottom{
+
+ margin: auto;
+ font-size: 0;
+ width: 91%;
+
+ }
+
+ .sub_bottom{
+
+ width: 100%;
+ text-align: center;
+
+ }
+
+ .picture_1{
+
+ height: 220px;
+ width: 220px;
+ background-size: cover;
+ background-position: center;
+ color: white;
+ display: inline-block;
+ vertical-align: top;
+ background-image: url(Images/Paul-George-Jump.jpg);
+
+ }
+
+ .picture_2{
+
+ height: 220px;
+ width: 220px;
+ background-size: cover;
+ background-position: center;
+ color: white;
+ display: inline-block;
+ vertical-align: top;
+ background-image: url(Images/George_Hill_Pacers.jpg);
+
+ }
+
+
+ .picture_3{
+
+ height: 220px;
+ width: 220px;
+ background-size: cover;
+ background-position: center;
+ color: white;
+ display: inline-block;
+ vertical-align: top;
+ background-image: url(Images/Monta_Ellis.jpg);
+
+ }
+
+ .picture_4{
+
+ height: 220px;
+ width: 220px;
+ background-size: cover;
+ background-position: center;
+ color: white;
+ display: inline-block;
+ vertical-align: top;
+ background-image: url(Images/stucky.jpg);
+
+ }
+
+ .picture_bottom{
+
+ color: #FFD700;
+ min-height: 50px;
+ background-image: url(Images/pacers.jpg);
+ width: 70.8%;
+ text-align: center;
+ margin-left: 14.6%;
+ background-size: cover;
+
+ }
+
+
+ .nav_blog{
+
+ float: left;
+ font-size: 20px;
+
+ }
+
+ .players{
+
+ float: right;
+ font-size: 20px;
+ word-spacing: 10px;
+
+ }
+
+ h4{
+
+ font-size: 25px;
+ margin-top: 85%;
+ margin-bottom: 0;
+ margin-left: 60%;
+
+ }
