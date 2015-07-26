@@ -12,8 +12,37 @@
     <div class = "search"> ABOUT &nbsp&nbsp SEARCH </div>
     <div class = "iron"> An Iron Yard Academy Project Est. Summer 2015 </div>
   </header>
+  <div class = "middle_text">
 
-<%= yield %>
+    <div class = "post">
+
+      <div class = "post_1">
+        <%= yield %>
+      </div>
+
+    </div>
+
+    <div class = "author">
+
+      <div class = "poster_pic">
+      </div>
+
+      <div class = "poster">
+      <p> Posted by: Pacers Fan </p>
+      </div>
+
+      <p class = "social_media"> Twitter | Facebook | Instagram </p>
+
+      <div class = "advert">
+      </div>
+
+      <div class = "ad_write-up">
+      <p> Out believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end piqued spring. Down has rose feel find man. Learning day desirous informed expenses material returned six the. She enabled invited exposed him another. Reasonably conviction solicitude me mr at discretion reasonable. Age out full gate bed day lose. </p>
+      </div>
+
+    </div>
+
+  </div>
 
 <div class = "bottom_main">
 
@@ -27,28 +56,24 @@
 
     <div class = "sub_bottom">
 
-      <div class = "picture_1">
-        <h4>
-          <p> George </p>
-        </h4>
+      <div class = "picture">
+            <%=link_to image_tag("Paul-George-Jump.jpg"), id_path(:id => 1) %>
+        <h4> George </h4>
       </div>
 
-      <div class = "picture_2">
-        <h4>
-          <p> Hill </p>
-        </h4>
+      <div class = "picture">
+        <%=link_to image_tag("George_Hill_Pacers.jpg"), id_path(:id => 2)%>
+        <h4> Hill </h4>
       </div>
 
-      <div class = "picture_3">
-        <h4>
-          <p> Ellis </p>
-        </h4>
+      <div class = "picture">
+        <%=link_to image_tag("Monta_Ellis.jpg"), id_path(:id => 3)%>
+        <h4> Ellis </h4>
       </div>
 
-      <div class = "picture_4">
-        <h4>
-          <p> Stuckey </p>
-        </h4>
+      <div class = "picture">
+          <%=link_to image_tag("stucky.jpg"), id_path(:id => 4)%>
+        <h4> Stuckey </h4>
       </div>
 
       <div class = "picture_bottom">

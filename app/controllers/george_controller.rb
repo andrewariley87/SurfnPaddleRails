@@ -1,0 +1,2 @@
+class GeorgeController < ApplicationController
+end

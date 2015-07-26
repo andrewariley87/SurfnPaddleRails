@@ -1,0 +1,2 @@
+module GeorgeHelper
+end

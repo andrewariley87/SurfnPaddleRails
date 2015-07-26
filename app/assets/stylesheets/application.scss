@@ -22,6 +22,11 @@
 
  }
 
+ img {
+   height: 220px;
+   width: 220px;
+ }
+
  .site_header{
 
    top: 0;
@@ -108,11 +113,11 @@
 
  .author{
 
- position: absolute;
+ position: inherit;
  display: inline-block;
- margin-left: 300px;
+ margin-left: 700px;
  text-align: center;
- margin-top: -30px;
+ margin-top: -275px;
  height: 100%;
 
  }
@@ -131,7 +136,7 @@
  height: 200px;
  width: 200px;
  border-radius: 50%;
- margin-right: 150px;
+ margin-left: 130px;
 
  }
 
@@ -147,7 +152,7 @@
  background-image: url("Images/pacers_logo.gif");
  height: auto;
  width: auto;
- margin-left: -200px;
+ margin-right: 175;
  margin-top: 100px;
  height: 475px;
  width: 490px;
@@ -158,7 +163,7 @@
 
    line-height: 28px;
    height: 30%;
-   margin-left: -200px;
+   margin-right: 100px;
    margin-top: 40px;
    text-align: center;
    padding-right: 50px;
@@ -170,7 +175,8 @@
  width: 100%;
  background-color: #FFD700;
  margin-top: 80px;
- background-size: 100%
+ background-size: cover;
+ height: inherit;
 
  }
 
@@ -179,6 +185,7 @@
  font-size: 40px;
  text-align: center;
  color: blue;
+ margin-top: 50px
 
  }
 
@@ -197,58 +204,19 @@
 
  }
 
- .picture_1{
+.picture{
 
- height: 220px;
- width: 220px;
- background-size: cover;
- background-position: center;
- color: white;
- display: inline-block;
- vertical-align: top;
- background-image: url(Images/Paul-George-Jump.jpg);
+  width: 25%;
+  float: left;
 
- }
+}
 
- .picture_2{
+.sub_picture{
 
- height: 220px;
- width: 220px;
- background-size: cover;
- background-position: center;
- color: white;
- display: inline-block;
- vertical-align: top;
- background-image: url(Images/George_Hill_Pacers.jpg);
+  height: 220px;
+  width: 220px;
 
- }
-
-
- .picture_3{
-
- height: 220px;
- width: 220px;
- background-size: cover;
- background-position: center;
- color: white;
- display: inline-block;
- vertical-align: top;
- background-image: url(Images/Monta_Ellis.jpg);
-
- }
-
- .picture_4{
-
- height: 220px;
- width: 220px;
- background-size: cover;
- background-position: center;
- color: white;
- display: inline-block;
- vertical-align: top;
- background-image: url(Images/stucky.jpg);
-
- }
+}
 
  .picture_bottom{
 
@@ -258,7 +226,7 @@
  width: 70.8%;
  text-align: center;
  margin-left: 14.6%;
- background-size: cover;
+ background-size: auto;
 
  }
 
@@ -281,8 +249,6 @@
  h4{
 
  font-size: 25px;
- margin-top: 85%;
  margin-bottom: 0;
- margin-left: 60%;
 
  }

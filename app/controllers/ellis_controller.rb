@@ -1,0 +1,2 @@
+class EllisController < ApplicationController
+end
