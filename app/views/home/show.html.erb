@@ -1,9 +1,9 @@
-<p><h1><%=@linked_post.title%></h1></p>
+<p><h1><%=@post.title%></h1></p>
 
-<p><h2><%=@linked_post.body%></h2></p>
+<p><h2><%=@post.body%></h2></p>
 
-<p><h5><%=@linked_post.summary%></h5></p>
+<p><h5><%=@post.summary%></h5></p>
 
-<p><h5><%=@linked_post.author%></h5></p>
+<p><h5><%=@post.author%></h5></p>
 
-<p><h6><%=@linked_post.created_at%></h6></p>
+<p><h6><%=@post.created_at.strftime('%B %d, %Y') %></h6></p>

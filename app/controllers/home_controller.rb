@@ -7,7 +7,7 @@ class HomeController < ApplicationController
   end
 
   def show
-    @linked_post = Post.find(params[:id].to_i)
+    @post = Post.find(params[:id].to_i)
   end
 
 end
