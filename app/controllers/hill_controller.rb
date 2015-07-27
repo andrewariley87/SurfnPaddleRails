@@ -1,0 +1,2 @@
+class HillController < ApplicationController
+end
